@@ -1,0 +1,2 @@
+﻿#Get-ChildItem -Path "C:\Users\genadi\Pictures\*" -Include *.jpg,*.png -Recurse | Copy-Item -Destination D:\
+Get-ChildItem -Path "C:\Users\Robert\Downloads\*" -Include *.jpg,*.png,*.gif,*.mp4,*.mov | Move-Item -Destination "C:\Users\Robert\.zed3\downloads\"
